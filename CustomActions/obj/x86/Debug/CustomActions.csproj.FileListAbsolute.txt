@@ -1,0 +1,10 @@
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CustomActions\bin\Debug\CustomActions.dll
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CustomActions\bin\Debug\CustomActions.CA.dll
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CustomActions\bin\Debug\CustomActions.pdb
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.dll
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.xml
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CosmosInstaller\CActions.dll
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CosmosInstaller\CActions.CA.dll
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CosmosInstaller\CActions.pdb
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CustomActions\obj\x86\Debug\CActions.dll
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CustomActions\obj\x86\Debug\CActions.pdb

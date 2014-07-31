@@ -1,0 +1,6 @@
+obj\Debug\Product.wixobj
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CosmosInstaller\bin\Debug\CosmosInstaller.msi
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CosmosInstaller\bin\Debug\CosmosInstaller.wixpdb
+obj\Debug\CosmosInstaller.wixproj.BindContentsFileListnull.txt
+obj\Debug\CosmosInstaller.wixproj.BindOutputsFileListnull.txt
+obj\Debug\CosmosInstaller.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="CosmosInstaller" Language="1033" Version="1.0.0.0" Manufacturer="PSD" UpgradeCode="904a907f-437d-4747-835f-9785e4038841">
+	<Product Id="*" Name="CosmosInstaller" Language="1033" Version="1.0.0.0" Manufacturer="Cosmos" UpgradeCode="904a907f-437d-4747-835f-9785e4038841">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
-
+    <Media Id="1" Cabinet="CosmosInstaller.cab" EmbedCab="yes" />
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
-		<MediaTemplate />
-
-		<Feature Id="ProductFeature" Title="CosmosInstaller" Level="1">
+    <Condition Message="This application is only supported on Windows Vista, Windows Server 2008, or higher.">
+      <![CDATA[Installed OR (VersionNT >= 600)]]>
+    </Condition>
+    <Property Id="PromptToCloseProcesses" Value="devenv" />
+    <Property Id="PromptToCloseDisplayNames" Value="Visual Studio" />
+    <Binary Id="ClosePromptBinary" SourceFile="CActions.CA.dll" />
+    <CustomAction Id="CloseAppsPrompt" BinaryKey="ClosePromptBinary"
+             DllEntry="ClosePrompt" Return="check" />
+    <InstallExecuteSequence>
+        <Custom Action="CloseAppsPrompt" After="CostFinalize"></Custom>
+    </InstallExecuteSequence>
+    <!--<Feature Id="ProductFeature" Title="CosmosInstaller" Level="1">
 			<ComponentGroupRef Id="ProductComponents" />
-		</Feature>
+		</Feature>-->
 	</Product>
 
 	<Fragment>

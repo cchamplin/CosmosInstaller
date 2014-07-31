@@ -1,0 +1,2 @@
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CosmosInstaller\bin\Debug\CosmosInstaller.msi
+c:\users\caleb\documents\visual studio 2012\Projects\CosmosInstaller\CosmosInstaller\bin\Debug\CosmosInstaller.wixpdb
